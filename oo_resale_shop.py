@@ -1,6 +1,7 @@
 from computer import *
 
 class ResaleShop(): 
+    """This class contains the blueprint for the Resale shop"""
     inventory : list
     def __init__ (self):
         self.inventory=[]
