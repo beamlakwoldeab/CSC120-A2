@@ -1,12 +1,13 @@
 from computer import *
 
 class ResaleShop():
-    inventory = list
+    inventory : list
     def __init__ (self):
         self.inventory=[]
 
     def buy(self, computer: Computer):
         self.inventory.append(computer)
+        
 
         # buying a computer (add to inventory)
         
