@@ -1,6 +1,6 @@
 from computer import *
 
-class ResaleShop():
+class ResaleShop(): 
     inventory : list
     def __init__ (self):
         self.inventory=[]
