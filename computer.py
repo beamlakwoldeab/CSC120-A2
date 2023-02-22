@@ -1,4 +1,5 @@
 class Computer:
+    """This class is a blueprint of the computer objects and their attributes"""
     description:str
     processor_type:str
     hard_drive_capacity:int
